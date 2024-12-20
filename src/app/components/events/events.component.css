@@ -61,7 +61,8 @@ button{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
+    position: relative;
 }
 .add-button{
     width:138px;
@@ -93,6 +94,8 @@ button{
     height: 25px;
     padding: 15px 12px 15px 24px;
     margin: 24px 0px 0px 20px;
+    width:100%;
+    max-width: 1000px;
 }
 
 .input-search input {
@@ -100,7 +103,7 @@ button{
     outline: none;
     padding: 7px;
     border-radius:4px;
-    width:88%;
+    
 }
 
 .input-search button {
